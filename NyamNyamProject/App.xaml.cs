@@ -16,7 +16,7 @@ namespace NyamNyamProject
     public partial class App : Application
     {
         public static Frame MainPageFrame;
-        public static NyamNyamEntities db = new NyamNyamEntities();
+        public static AdelEntities db = new AdelEntities();
         //public static AdelEntities db = new AdelEntities();
     }
 }

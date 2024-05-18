@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using NyamNyamProject.Pages;
 
 namespace NyamNyamProject.Pages
 {
@@ -115,6 +116,11 @@ namespace NyamNyamProject.Pages
                 //App.db.SaveChanges();
                 //Refresh();
             }
+        }
+
+        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.MainPageFrame.Navigate(new IngredientEditPage(new Ingredients()));
         }
     }
 }

@@ -50,6 +50,7 @@
                     </GridView>
                 </ListView.View>
             </ListView>
+            <Button x:Name="AddBtn" Margin="3" Width="50" Click="AddBtn_Click">Add</Button>
         </StackPanel>
     </Grid>
 </Page>

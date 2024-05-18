@@ -175,6 +175,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\IngredientEditPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\IngredientsListPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -190,6 +194,9 @@
     </Compile>
     <Compile Include="Pages\DishRecipePage.xaml.cs">
       <DependentUpon>DishRecipePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\IngredientEditPage.xaml.cs">
+      <DependentUpon>IngredientEditPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\IngredientsListPage.xaml.cs">
       <DependentUpon>IngredientsListPage.xaml</DependentUpon>
